@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<title>asdasdsd</title>
+	<fieldset 
+	name="params" 
+	label="COM_ARTICLEPAY_PARAMS_LABEL"
+	description="COM_ARTICLEPAY_PARAMS_DESC">
+		<field 
+		name="zarinpalCode" 
+		type="text"
+		label="COM_ARTICLEPAY_ZARINPAL_CODE_LABEL" 
+		description="COM_ARTICLEPAY_ZARINPAL_CODE_DESSC"
+		default="">
+		</field>
+	</fieldset>
+</config>

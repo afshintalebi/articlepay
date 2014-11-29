@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+	<name>ArticlePay</name>
+	<creationDate>November 2014</creationDate>
+	<author>Afshin Talebi</author>
+	<authorEmail>info@afshintalebi.com</authorEmail>
+	<authorUrl>http://www.afshintalebi.com</authorUrl>
+	<copyright>Copyright 2014, All rights reserved.</copyright>
+	<!-- <license></license> -->
+	<version>1.0.0</version>
+	<description>
+		<![CDATA[
+		<a href="http://afshintalebi.com" target="_blank">afshintalebi.com</a>
+		]]>
+	</description>
+	<scriptfile>script.php</scriptfile>
+	<!-- Install/Uninstall Section -->
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.sql</file>
+		</sql>
+	</uninstall>
+	<administration>
+		<menu link="option=com_articlepay">com_articlepay_root_menu_title</menu>
+		<submenu>
+			<menu link="option=com_articlepay&amp;view=article">com_articlepay_articles_list</menu>
+			<menu link="option=com_articlepay&amp;view=article&amp;task=add">com_articlepay_add_article</menu>
+			<menu link="option=com_articlepay&amp;view=transaction">com_articlepay_transactions</menu>
+			<menu link="option=com_articlepay&amp;view=bought">com_articlepay_bought_articles</menu>
+		</submenu>
+		<languages folder="backend">
+		   <language tag="en-GB">language/en-GB.com_articlepay.ini</language>
+		   <language tag="en-GB">language/en-GB.com_articlepay.sys.ini</language>
+		   <language tag="fa-IR">language/fa-IR.com_articlepay.ini</language>
+		   <language tag="fa-IR">language/fa-IR.com_articlepay.sys.ini</language>
+		</languages>
+		<!-- Administration File Section -->
+		<files folder="backend">
+			<folder>controllers</folder>
+			<folder>help</folder>
+			<folder>language</folder>
+			<folder>models</folder>
+			<folder>sql</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+			<filename>config.xml</filename>
+			<filename>admin.articlepay.php</filename>
+			<filename>controller.php</filename> 
+			<filename>index.html</filename>
+		</files>
+	</administration>
+	<!-- Site File Section -->
+	<languages folder="frontend">
+	   <language tag="en-GB">language/en-GB.com_articlepay.ini</language>
+	   <language tag="fa-IR">language/fa-IR.com_articlepay.ini</language>
+	</languages>
+	<files folder="frontend">
+		<folder>classes</folder>
+		<folder>models</folder>
+		<folder>views</folder>
+		<filename>articlepay.php</filename>
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+	</files>
+	
+</extension>
