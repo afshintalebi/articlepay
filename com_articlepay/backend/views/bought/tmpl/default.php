@@ -1,11 +1,11 @@
 <?php
 /**
-*  Articlepay Component Administrator Article Payed View
+*  Articlepay Component Administrator Bought View
 * 
-*  @package com_articlepay
-*  @subpackage components
-*  @link http://www.packtpub.com
-*  @license GNU/GPL
+* @package com_articlepay
+* @subpackage components
+* @link https://github.com/afshintalebi/articlepay
+* @license GNU/GPL version 3
 */
 // No direct access
 defined ( '_JEXEC' ) or die ( 'Restricted access' );

@@ -4,19 +4,13 @@
 * 
 * @package com_articlepay
 * @subpackage components
-* @link http://www.packtpub.com
-* @license GNU/GPL
+* @link https://github.com/afshintalebi/articlepay
+* @license GNU/GPL version 3
 */
 // no direct access
 defined ( '_JEXEC' ) or die ( 'Restricted access' );
 // Import the JModel class
 jimport ( 'joomla.application.component.model' );
-/**
- * Articlepay Article Model
- *
- * @package com_articlepay
- * @subpackage components
- */
 class ArticlepayModelTransaction extends JModel {
 	/**
 	 * Transactions data array of objects

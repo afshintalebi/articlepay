@@ -1,11 +1,11 @@
 <?php
 /**
-*  Articlepay Component Administrator Articles View
+*  Articlepay Component Administrator User View
 * 
-*  @package com_articlepay
-*  @subpackage components
-*  @link http://afsintalebi.com
-*  @license GNU/GPL
+* @package com_articlepay
+* @subpackage components
+* @link https://github.com/afshintalebi/articlepay
+* @license GNU/GPL version 3
 */
 // No direct access
 defined ( '_JEXEC' ) or die ( 'Restricted access' );

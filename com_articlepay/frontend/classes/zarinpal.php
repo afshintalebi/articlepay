@@ -1,4 +1,12 @@
 <?php
+/**
+ * ZarinaPal gateway class
+ *
+* @package com_articlepay
+* @subpackage components
+* @link https://github.com/afshintalebi/articlepay
+* @license GNU/GPL version 3
+ */
 class ZarinPalPayment {
 	public $status = array (
 			'100' => 'تراکنش با موفقیت انجام شد',

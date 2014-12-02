@@ -4,17 +4,13 @@
 * 
 * @package com_articlepay
 * @subpackage components
-* @link http://www.packtpub.com
-* @license GNU/GPL
+* @link https://github.com/afshintalebi/articlepay
+* @license GNU/GPL version 3
 */
 // No direct access
 defined ( '_JEXEC' ) or die ( 'Restricted access' );
 // Load the base JController class
 jimport ( 'joomla.application.component.controller' );
-/**
- * Articlepay Frontend Controller
- */
-
 class ArticlepayController extends JController {
 	/**
 	 * Method to display the view

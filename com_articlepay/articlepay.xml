@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="component" version="2.5" method="install">
 	<name>ArticlePay</name>
-	<creationDate>November 2014</creationDate>
+	<creationDate>Dec 2014</creationDate>
+	<license>GNU General Public License version 3</license>
 	<author>Afshin Talebi</author>
 	<authorEmail>info@afshintalebi.com</authorEmail>
 	<authorUrl>http://www.afshintalebi.com</authorUrl>
 	<copyright>Copyright 2014, All rights reserved.</copyright>
-	<!-- <license></license> -->
 	<version>1.0.0</version>
 	<description>
 		<![CDATA[

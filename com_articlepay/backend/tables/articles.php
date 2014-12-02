@@ -4,18 +4,11 @@
 * 
 * @package com_articlepay
 * @subpackage components
-* @link http://www.packtpub.com
-* @license GNU/GPL
+* @link https://github.com/afshintalebi/articlepay
+* @license GNU/GPL version 3
 */
 // no direct access
 defined ( '_JEXEC' ) or die ( 'Restricted access' );
-/**
- * Article Table class
- *
- * @package com_boxoffice
- * @subpackage components
- *            
- */
 class TableArticles extends JTable {
 	/**
 	 * @var int Primary key

@@ -9,13 +9,6 @@
 */
 // no direct access
 defined ( '_JEXEC' ) or die ( 'Restricted access' );
-/**
- * Article Table class
- *
- * @package com_boxoffice
- * @subpackage components
- *            
- */
 class TableUserpayed extends JTable {
 	/**
 	 * @var int Primary key

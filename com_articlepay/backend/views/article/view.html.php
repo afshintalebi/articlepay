@@ -2,28 +2,15 @@
 /**
 *  Articlepay Component Administrator Article View
 * 
-*  @package com_boxoffice
-*  @subpackage components
-*  @link http://www.packtpub.com
-*  @license GNU/GPL
+* @package com_articlepay
+* @subpackage components
+* @link https://github.com/afshintalebi/articlepay
+* @license GNU/GPL version 3
 */
 // No direct access
 defined ( '_JEXEC' ) or die ( 'Restricted access' );
 jimport ( 'joomla.application.component.view' );
-/**
- * Revues View
- *
- * @package com_boxoffice
- * @subpackage components
- *            
- */
 class ArticlepayViewArticle extends JView {
-	/**
-	 * Revues view display method
-	 *
-	 * @return void
-	 *
-	 */
 	public function display($tpl=null) {
 		JToolBarHelper::title ( JText::_ ( 'COM_ARTICLEPAY_LIST_PAGE_TITLE' ));
 		JToolBarHelper::deleteList (JText::_ ( 'COM_ARTICLEPAY_DELETE_CONFIRM_MSG' ),'delete');

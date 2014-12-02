@@ -1,4 +1,13 @@
 <?php
+/**
+* Articlepay Administrator transaction controller
+* 
+* @package com_articlepay
+* @subpackage components
+* @link https://github.com/afshintalebi/articlepay
+* @license GNU/GPL version 3
+*/
+// no direct access
 defined ( '_JEXEC' ) or die ( 'Restricted access' );
 jimport ( 'joomla.application.component.controller' );
 class ArticlepayControllerTransaction extends JController {

@@ -1,11 +1,12 @@
 <?php
 /**
- * Boxoffice Administrator entry point
- *
- * @package com_boxoffice
- * @subpackage components
- * @license GNU/GPL
- */
+* Articlepay frontend entry point 
+* 
+* @package com_articlepay
+* @subpackage components
+* @link https://github.com/afshintalebi/articlepay
+* @license GNU/GPL version 3
+*/
 // no direct access
 defined ( '_JEXEC' ) or die ( 'Restricted access' );
 // Require the base controller

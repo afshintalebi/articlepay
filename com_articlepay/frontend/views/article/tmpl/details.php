@@ -1,3 +1,15 @@
+<?php
+/**
+*  Articlepay Component Article View
+* 
+* @package com_articlepay
+* @subpackage components
+* @link https://github.com/afshintalebi/articlepay
+* @license GNU/GPL version 3
+*/
+// No direct access
+defined ( '_JEXEC' ) or die ( 'Restricted access' );
+?>
 <?php if($this->failed) { ?>
 
 <div id="system-message-container" class="articlepay-message">

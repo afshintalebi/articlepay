@@ -1,10 +1,11 @@
 <?php 
 /**
- * Boxoffice Administrator entry point
+ * ArticlePay Administrator entry point
  *
- * @package com_boxoffice
+ * @package ArticlePay
  * @subpackage components
- * @license GNU/GPL
+ * @link https://github.com/afshintalebi/articlepay
+ * @license GNU/GPL version 3
  */
 // no direct access
 defined( '_JEXEC' ) or die( 'Restricted access' );
